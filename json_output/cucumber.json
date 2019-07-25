@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login To Codillity",
+        "description": "",
+        "id": "login-in-codillity;login-to-codillity;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is already on Login Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "title of login page is Codillity",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefine"
+            },
+            "line": 6,
+            "name": "user enters \"ibnuhazar.pmm@gmail.com\" and \"myeverything25\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login in Codillity",
+    "description": "",
+    "id": "login-in-codillity",
+    "keyword": "Feature",
+    "uri": "D:/Doc BootCamp Ibnu/JVM Test Automation/comtestCucumbertest/src/main/java/Features/login.feature"
+  }
+]
